@@ -1,0 +1,160 @@
+body{
+    background-image:url(./14_01edge-cloud-computing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+aside{
+    float: left;
+
+}
+.websit{
+    float: right;
+}
+.table a{
+    font-size: xx-large;
+    float: right;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: 'Roboto', sans-serif;
+    background-color: gainsboro;
+}
+aside
+{
+    background-color: black;
+    width: 200px;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.1em;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    
+}
+
+aside header
+{
+    margin-bottom: 1em;
+
+}
+aside ul{
+    list-style: none;
+    line-height: 3rem;
+}
+aside header button
+{
+    border-radius: 0;
+    outline: 0;
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font: size 2.5em;;
+    cursor: pointer;
+    border: 2px solid white;
+
+}
+aside ul li a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    background-image: url();
+background-position: center;
+background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+}
+section button{
+    border-radius: 30%;
+    outline: 3px dotted green;
+    border: 2px dashed red;
+    outline: 0;
+    font-size: 1.4em;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    margin: 1rem 0 0 1rem;
+}
+.hide{
+    left: -400px;
+}
+
+
+
+
+
+
+
+.pic{
+    position: relative;
+    width: 250px;
+    height: 270px;
+    border-radius: 40%;
+    overflow: hidden; 
+    z-index: 1;
+    float: right;
+    margin-top: 30px;
+    border: 5px solid red;
+}
+
+.pic::before{
+    content: '';
+    position: absolute;
+    top: -30px;
+    left:-30px;
+    width: 350px;
+    height: 350px;
+    background: conic-gradient(#0ff,#0f0,#00f,#f0f,#f00,#ff0,#0ff);
+    border-radius: 50%;
+    z-index: 0;
+    animation: rotateBorder 4s linear infinite;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    animation-name: Sohil;
+    animation-duration: 5s;
+    animation-delay: 2s;
+
+}
+.caption a{
+    padding:10px;
+}
+@keyframes rotateBorder{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(30deg);
+    }
+}
+@keyframes Sohil{
+    from{
+        background-image:url(./FB_IMG_1747771181946.jpg);
+        border-radius: 30%;
+    }
+    to{
+        border-radius: 50%;
+        background-color: #0f0;
+       
+    }
+}
+   
